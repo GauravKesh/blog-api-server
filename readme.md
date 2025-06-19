@@ -1,6 +1,6 @@
 # 📰 Blog API Server
 
-A scalable, production-ready REST API built with Node.js, Express, and MongoDB. Supports full CRUD operations for blog posts, status-based filtering, slug generation, and pagination.
+A scalable, production-ready REST API built with Node.js, Express, and MongoDB. Supports full CRUD operations for blog posts.
 
 ## ✨ Features
 
