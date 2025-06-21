@@ -1,16 +1,19 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const dotenv = require('dotenv');
+const dotenvFlow = require('dotenv-flow')
+
+// Load environment variables
 const postRoutes = require('./api/routes/postRoutes');
 
 // Load environment variables
-dotenv.config();
+dotenvFlow.config();
 
 // Initialize app
 const app = express();
 const PORT = process.env.PORT || 9090;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/blog-app';
+const MONGODB_URI = "mongodb+srv://blog-app:aMz0XrKPYtDchb5H@codethon.mbk8a.mongodb.net/blog-app?retryWrites=true&w=majority&appName=codethon"
+console.log(MONGODB_URI)
 
 // Middleware
 app.use(cors());
