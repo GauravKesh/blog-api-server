@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "backend": "node backend/server.js",
-    "backend:dev": "nodemon backend/server.js"
+    "backend:dev": "nodemon backend/server.js",
+    "backend:test": "jest --coverage"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -47,14 +48,20 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
+    "cors": "^2.8.5",
     "date-fns": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "dotenv-flow": "^4.1.0",
     "embla-carousel-react": "^8.3.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
+    "express": "^4.18.2",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
+    "mongoose": "^8.0.3",
     "next": "13.5.1",
     "next-themes": "^0.3.0",
+    "nodemon": "^3.0.2",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-day-picker": "^8.10.1",
@@ -68,12 +75,12 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
-    "zod": "^3.23.8",
-    "express": "^4.18.2",
-    "mongoose": "^8.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "nodemon": "^3.0.2",
-    "dotenv-flow": "^4.1.0"
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mockingoose": "^2.16.2",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.1"
   }
 }
