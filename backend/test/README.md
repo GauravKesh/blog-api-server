@@ -104,9 +104,7 @@ Time:        2.451 s
 
 ### 🖼️ Test Coverage Screenshots
 
-| Unit Test | Integration Test | API Test |
-|-----------|------------------|----------|
-| ![](./test_images/1.png) | ![](./test_images/2.png) | ![](./test_images/3.png) |
+
 
 
 ![Unit Test](https://github.com/GauravKesh/blog-api-server/blob/main/backend/test/test_images/1.png)
