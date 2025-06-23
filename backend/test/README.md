@@ -99,13 +99,10 @@ Test Suites: 3 passed, 3 total
 Tests:       3 passed, 3 total
 Snapshots:   0 total
 Time:        2.451 s
-```
+
 
 
 ### 🖼️ Test Coverage Screenshots
-
-
-
 
 ![Unit Test](https://raw.githubusercontent.com/GauravKesh/blog-api-server/refs/heads/main/backend/test/test_images/1.png)
 ![Integration Test](https://raw.githubusercontent.com/GauravKesh/blog-api-server/refs/heads/main/backend/test/test_images/2.png)
