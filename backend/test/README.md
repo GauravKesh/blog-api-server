@@ -107,6 +107,6 @@ Time:        2.451 s
 
 
 
-![Unit Test](https://github.com/GauravKesh/blog-api-server/blob/main/backend/test/test_images/1.png)
-![Integration Test](https://github.com/GauravKesh/blog-api-server/blob/main/backend/test/test_images/2.png)
-![API Test](https://github.com/GauravKesh/blog-api-server/blob/main/backend/test/test_images/3.png)
+![Unit Test](https://raw.githubusercontent.com/GauravKesh/blog-api-server/refs/heads/main/backend/test/test_images/1.png)
+![Integration Test](https://raw.githubusercontent.com/GauravKesh/blog-api-server/refs/heads/main/backend/test/test_images/2.png)
+![API Test](https://raw.githubusercontent.com/GauravKesh/blog-api-server/refs/heads/main/backend/test/test_images/3.png)
